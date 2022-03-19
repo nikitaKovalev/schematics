@@ -1,0 +1,19 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "view-cmp": {
+      "aliases": [ "view" ],
+      "description": "Schematic for View Components",
+      "factory": "./view/index#view",
+      "schema": "./view/schema.json",
+      "hidden": true
+    },
+    "container-cmp": {
+      "aliases": [ "container" ],
+      "description": "Schematic for Container Components",
+      "factory": "./container/index#container",
+      "schema": "./container/schema.json",
+      "hidden": true
+    }
+  }
+}
