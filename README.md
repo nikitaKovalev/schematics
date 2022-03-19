@@ -1,6 +1,11 @@
-# Getting Started With Schematics
+# Schematics for View and Container components
 
 This repository is a basic Schematic implementation that serves as a starting point to create and publish Schematics to NPM.
+
+### Usage
+Make `npm link /path/to/schematic` in you project. After that you are able to call next CLI commands:
+`ng g ui-schema:view --name`
+`ng g ui-schema:container --name`
 
 ### Testing
 
